@@ -77,6 +77,8 @@ perform_backup() {
 # Execute backup function
 perform_backup
 
+rclone sync -v --create-empty-src-dirs /$HOME/Desktop/Work mygdrive:/Work
+
 
 
 
